@@ -1,6 +1,6 @@
 # eslint-plugin-vue-no-use-computed-property-like-method-nullish-coalescing-error
 
-This template should help get you started developing with Vue 3 in Vite.
+A reproduction repo for issue https://github.com/vuejs/eslint-plugin-vue/issues/2037
 
 ## Recommended IDE Setup
 
@@ -31,5 +31,5 @@ npm run build
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+npm run lint-all
 ```

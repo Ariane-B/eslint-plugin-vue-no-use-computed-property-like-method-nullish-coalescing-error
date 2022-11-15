@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-vue-no-use-computed-property-like-method-nullish-coalescing-error",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint eslint-plugin-vue-no-use-computed-property-like-method-nullish-coalescing-error --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "vue": "^2.7.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "eslint": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import-newlines": "^1.2.3",
+    "eslint-plugin-jest": "^27.1.5",
+    "eslint-plugin-newline-destructuring": "^1.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.7.0",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2"
+  }
+}

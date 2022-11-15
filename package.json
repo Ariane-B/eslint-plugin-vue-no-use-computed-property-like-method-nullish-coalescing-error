@@ -5,7 +5,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173",
-    "lint": "eslint eslint-plugin-vue-no-use-computed-property-like-method-nullish-coalescing-error --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint-base": "eslint --max-warnings 0",
+    "lint-all": "npm run lint-base \"**/*.*{vue,js}\" --",
+    "lint-fix": "npm run lint-all -- --fix"
   },
   "dependencies": {
     "vue": "^2.7.7"
